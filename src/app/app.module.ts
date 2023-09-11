@@ -4,7 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CardLayoutComponent } from 'src/components/card-layout/card-layout.component';
 import { GridAnimationComponent } from 'src/components/grid-animation/grid-animation.component';
 import { MagazineLayoutComponent } from 'src/components/magazine-layout/magazine-layout.component';
+import { MostOrderedComponent } from 'src/components/most-ordered/most-ordered.component';
+import { MostTypeOrderComponent } from 'src/components/most-type-order/most-type-order.component';
+import { OrderReportComponent } from 'src/components/order-report/order-report.component';
 import { ResponsiveGridComponent } from 'src/components/responsive-grid/responsive-grid.component';
+import { SideBarComponent } from 'src/components/side-bar/side-bar.component';
+import { StatsCardComponent } from 'src/components/stats-card/stats-card.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -15,6 +20,11 @@ import { AppComponent } from './app.component';
     GridAnimationComponent,
     MagazineLayoutComponent,
     CardLayoutComponent,
+    SideBarComponent,
+    StatsCardComponent,
+    OrderReportComponent,
+    MostOrderedComponent,
+    MostTypeOrderComponent
   ],
   imports: [
     BrowserModule,
