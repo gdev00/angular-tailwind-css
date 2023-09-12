@@ -12,6 +12,7 @@ import { SideBarComponent } from 'src/components/side-bar/side-bar.component';
 import { StatsCardComponent } from 'src/components/stats-card/stats-card.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DashboardPageComponent } from './dashboard-page/dashboard-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AppComponent } from './app.component';
     StatsCardComponent,
     OrderReportComponent,
     MostOrderedComponent,
-    MostTypeOrderComponent
+    MostTypeOrderComponent,
+    DashboardPageComponent
   ],
   imports: [
     BrowserModule,
