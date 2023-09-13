@@ -6,6 +6,7 @@ import { GridAnimationComponent } from 'src/components/grid-animation/grid-anima
 import { MagazineLayoutComponent } from 'src/components/magazine-layout/magazine-layout.component';
 import { MostOrderedComponent } from 'src/components/most-ordered/most-ordered.component';
 import { MostTypeOrderComponent } from 'src/components/most-type-order/most-type-order.component';
+import { NavBarComponent } from 'src/components/nav-bar/nav-bar.component';
 import { OrderReportComponent } from 'src/components/order-report/order-report.component';
 import { ResponsiveGridComponent } from 'src/components/responsive-grid/responsive-grid.component';
 import { SideBarComponent } from 'src/components/side-bar/side-bar.component';
@@ -13,6 +14,7 @@ import { StatsCardComponent } from 'src/components/stats-card/stats-card.compone
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardPageComponent } from './dashboard-page/dashboard-page.component';
+import { TaskboardPageComponent } from './taskboard-page/taskboard-page.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { DashboardPageComponent } from './dashboard-page/dashboard-page.componen
     OrderReportComponent,
     MostOrderedComponent,
     MostTypeOrderComponent,
-    DashboardPageComponent
+    DashboardPageComponent,
+    TaskboardPageComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
