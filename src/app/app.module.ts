@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { CardLayoutComponent } from 'src/components/card-layout/card-layout.component';
+import { FlyoutMenusComponent } from 'src/components/flyout-menus/flyout-menus.component';
 import { GridAnimationComponent } from 'src/components/grid-animation/grid-animation.component';
 import { MagazineLayoutComponent } from 'src/components/magazine-layout/magazine-layout.component';
 import { MostOrderedComponent } from 'src/components/most-ordered/most-ordered.component';
@@ -30,7 +31,8 @@ import { TaskboardPageComponent } from './taskboard-page/taskboard-page.componen
     MostTypeOrderComponent,
     DashboardPageComponent,
     TaskboardPageComponent,
-    NavBarComponent
+    NavBarComponent,
+    FlyoutMenusComponent
   ],
   imports: [
     BrowserModule,
